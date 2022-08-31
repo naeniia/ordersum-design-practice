@@ -1,0 +1,120 @@
+body {
+  /* background-color: hsl(228, 45%, 44%); */
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #1F2F56;
+  margin: 20px 0 12px 0;
+  font-weight: 900;
+}
+
+/* main */
+
+.square {
+  width: 370px;
+  height: 500px;
+  margin: 3% auto;
+  position: relative;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 16px 0 #E0E8FF, 0 6px 20px 0 #E0E8FF;
+}
+
+.main-img {
+  width: 370px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.description {
+  padding: 0 37px;
+  color: #7280A7;
+}
+
+/* Mini div */
+
+.tiny-square {
+  background-color: #F5F7FF;
+  position: relative;
+  text-align: left;
+  width: 300px;
+  height: 70px;
+  margin: 0 35px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.music-icon {
+  float: left;
+  margin: auto 10px;
+  padding-right: 5px;
+}
+
+.plan-text {
+  margin-bottom: 3px;
+  font-weight: 700;
+  color: #1F2F56;
+}
+
+.price-text {
+ color: #7280A7;
+}
+
+.change-option {
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  margin: 0;
+  text-decoration: underline;
+  color: #3829E0;
+}
+
+.change-option:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.button {
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+  background-color: #3829E0;
+  padding: 5px 70px;
+  margin-top: 15px;
+  box-shadow: 0 5px 16px 0 #E0E8FF, 0 6px 20px 0 #E0E8FF;
+}
+
+.button:hover {
+  background-color: #766cf1;
+}
+
+.cancel-b {
+  color: #7280A7;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cancel-b:hover {
+  color: #1F2F56;
+}
+
+/* Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
